@@ -100,3 +100,42 @@ main {
   margin: 20px;
   border-radius: 10px;
 }
+
+.top-consent {
+  display: flex;
+  justify-content: space-around;
+}
+
+.exite {
+  position: absolute;
+  right: 0;
+  padding: 10px;
+}
+
+.main-consent {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid white;
+  justify-content: space-between;
+  height: 90%;
+  padding: 10px;
+}
+
+#cookie-logo {
+  width: 100%;
+  border: 1px solid blue;
+  height: 40%;
+}
+
+.consenst-info {
+  width: 150px;
+}
+
+.consent-btn {
+  width: 100%;
+  padding: 10px;
+  color: black;
+  background-color: white;
+  border-radius: 10px;
+  font-weight: bold;
+}
