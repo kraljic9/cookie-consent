@@ -4,6 +4,8 @@ body {
   box-sizing: border-box;
   height: 100vh;
   padding: 20px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: lightgray;
 }
 
 .container {
@@ -20,7 +22,7 @@ body {
 .logo {
   width: 20px;
   height: 20px;
-  background-color: gray;
+  background-color: lightgrey;
   border-radius: 5px;
 }
 
@@ -57,9 +59,9 @@ main {
 
 .block-one {
   width: 95%;
-  height: 300px;
+  height: 250px;
   border-radius: 10px;
-  background-color: grey;
+  background-color: lightgray;
   display: flex;
   justify-content: flex-end;
   padding: 30px;
@@ -69,7 +71,7 @@ main {
   width: 95%;
   height: 50px;
   border-radius: 10px;
-  background-color: grey;
+  background-color: lightgray;
   display: flex;
   justify-content: flex-end;
   padding: 30px;
@@ -83,9 +85,12 @@ main {
 }
 
 .text-box {
-  background-color: gray;
+  background-color: lightgray;
+  color: white;
   padding: 20px;
   border-radius: 10px;
+  height: 200px;
+  margin-bottom: 10px;
 }
 
 .cookie-consent {
@@ -106,16 +111,16 @@ main {
   justify-content: space-around;
 }
 
-.exite {
+.exit {
   position: absolute;
   right: 0;
   padding: 10px;
+  cursor: pointer;
 }
 
 .main-consent {
   display: flex;
   flex-direction: column;
-  border: 1px solid white;
   justify-content: space-between;
   height: 90%;
   padding: 10px;
@@ -123,7 +128,6 @@ main {
 
 #cookie-logo {
   width: 100%;
-  border: 1px solid blue;
   height: 40%;
 }
 
